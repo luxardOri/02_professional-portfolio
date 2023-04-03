@@ -1,7 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*This is for the header section, it formats so header and nav items are inline with each other */
+header {
+    padding: 10px;
+    margin: 10px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Outer container for the main content*/
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Inner container for the My Works section*/
+.container2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+/*Outer container children; makes it so the header and content are side by side*/
+.item {
+    flex-basis: auto;
+}
+
+.content {
+    display: inline;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+/*Inner container children; makes it so the content in My Works section are side by side; big is just for the first project */
+.work-content-big {
+    display: inline;
+    background-color: lightgreen;
+    margin: 10px;
+    width: 100%;
+}
+
+.work-content {
+    display: inline;
+    background-color: lightskyblue;
+    margin: 10px;
+    width: 50%;
+}
+
+/*Formats the paragraphs in the Outer container*/
+.content p {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Formats the headers for each of article in the section*/
+.header-main {
+    display: inline;
+    background-color: lightgrey;
+    border-right: 5px solid green;
+    margin: 10px;
+}
+
+.header-main h2 {
+    margin: 5px;
+    padding-left: 50px;
+    white-space: nowrap;
+    text-align: right;
+    display: inline;
+    border: 3px;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/*Formats the footer*/
 footer {
     padding: 30px;
     clear: both;
-    font-family: Helvetica, sans-serif;
     text-align: center;
     font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
