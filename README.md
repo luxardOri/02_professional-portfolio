@@ -12,8 +12,8 @@ No installations needed, but will need access to final project link and github. 
 
 To see the final project please see the links below:
 
-GitHub link: https://github.com/luxardOri/Week-2-Challenge
-Final project link: https://luxardori.github.io/Week-2-Challenge/
+GitHub link: https://github.com/luxardOri/02_professional-portfolio  
+Final project link: https://luxardori.github.io/02_professional-portfolio  
 
 You can see the html used by either clicking on the gitHub link or by inspecting the final project link.
 
